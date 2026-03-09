@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-03-09T11:06:34 IST" name="MilestoneSuite" finished-at="2026-03-09T11:07:05 IST" duration-ms="30256">
+    <groups>
+    </groups>
+    <test started-at="2026-03-09T11:06:34 IST" name="AutomationTests" finished-at="2026-03-09T11:07:05 IST" duration-ms="30256">
+      <class name="tests.ParabankTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.ParabankTest@7a8c8dcf]" started-at="2026-03-09T11:06:51 IST" name="setup" finished-at="2026-03-09T11:06:52 IST" duration-ms="1111" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testRegisterAndLogin()[pri:0, instance:tests.ParabankTest@7a8c8dcf]" started-at="2026-03-09T11:06:52 IST" name="testRegisterAndLogin" finished-at="2026-03-09T11:06:58 IST" duration-ms="6398" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegisterAndLogin -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.ParabankTest@7a8c8dcf]" started-at="2026-03-09T11:06:58 IST" name="teardown" finished-at="2026-03-09T11:06:59 IST" duration-ms="266" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- tests.ParabankTest -->
+      <class name="tests.FlightBookingTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.FlightBookingTest@24269709]" started-at="2026-03-09T11:06:59 IST" name="setup" finished-at="2026-03-09T11:07:00 IST" duration-ms="939" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testFlightBooking()[pri:0, instance:tests.FlightBookingTest@24269709]" started-at="2026-03-09T11:07:00 IST" name="testFlightBooking" finished-at="2026-03-09T11:07:04 IST" duration-ms="4819" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFlightBooking -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.FlightBookingTest@24269709]" started-at="2026-03-09T11:07:04 IST" name="teardown" finished-at="2026-03-09T11:07:05 IST" duration-ms="293" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- tests.FlightBookingTest -->
+      <class name="tests.GUIElementsTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.GUIElementsTest@327514f]" started-at="2026-03-09T11:06:34 IST" name="setup" finished-at="2026-03-09T11:06:38 IST" duration-ms="3929" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testGUIElements()[pri:0, instance:tests.GUIElementsTest@327514f]" started-at="2026-03-09T11:06:38 IST" name="testGUIElements" finished-at="2026-03-09T11:06:50 IST" duration-ms="12076" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGUIElements -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.GUIElementsTest@327514f]" started-at="2026-03-09T11:06:50 IST" name="teardown" finished-at="2026-03-09T11:06:51 IST" duration-ms="349" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- tests.GUIElementsTest -->
+    </test> <!-- AutomationTests -->
+  </suite> <!-- MilestoneSuite -->
+</testng-results>

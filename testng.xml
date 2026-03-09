@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="MilestoneSuite">
+
+    <test name="AutomationTests">
+
+        <classes>
+
+            <class name="tests.GUIElementsTest"/>
+            <class name="tests.ParabankTest"/>
+            <class name="tests.FlightBookingTest"/>
+
+        </classes>
+
+    </test>
+
+</suite>
